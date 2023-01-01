@@ -1,0 +1,5 @@
+XDMVLC/Pods/
+XDMVLC/.git/
+MobileVLCKit.framework
+# Xcode
+.DS_Store
