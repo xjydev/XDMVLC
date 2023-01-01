@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3EABAE913D26DA244BD8C1D /* libPods-XDMVLC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A03477637AD2C6B87E800706 /* libPods-XDMVLC.a */; };
 		E4BC271E2961AEC700064815 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC271D2961AEC700064815 /* AppDelegate.m */; };
 		E4BC27212961AEC700064815 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC27202961AEC700064815 /* SceneDelegate.m */; };
 		E4BC27242961AEC700064815 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC27232961AEC700064815 /* ViewController.m */; };
@@ -18,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42D00861034CE7D8244AB1F4 /* Pods-XDMVLC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDMVLC.release.xcconfig"; path = "Target Support Files/Pods-XDMVLC/Pods-XDMVLC.release.xcconfig"; sourceTree = "<group>"; };
+		853103CD359857C32B30DD83 /* Pods-XDMVLC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDMVLC.debug.xcconfig"; path = "Target Support Files/Pods-XDMVLC/Pods-XDMVLC.debug.xcconfig"; sourceTree = "<group>"; };
+		A03477637AD2C6B87E800706 /* libPods-XDMVLC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XDMVLC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BC27192961AEC700064815 /* XDMVLC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDMVLC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BC271C2961AEC700064815 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4BC271D2961AEC700064815 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,17 +43,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3EABAE913D26DA244BD8C1D /* libPods-XDMVLC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BBE08CBF95C20A08E0006C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				853103CD359857C32B30DD83 /* Pods-XDMVLC.debug.xcconfig */,
+				42D00861034CE7D8244AB1F4 /* Pods-XDMVLC.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		967BDF64F0F2EA6F10D6A2DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A03477637AD2C6B87E800706 /* libPods-XDMVLC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E4BC27102961AEC600064815 = {
 			isa = PBXGroup;
 			children = (
 				E4BC271B2961AEC700064815 /* XDMVLC */,
 				E4BC271A2961AEC700064815 /* Products */,
+				4BBE08CBF95C20A08E0006C6 /* Pods */,
+				967BDF64F0F2EA6F10D6A2DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4BC27322961AEC800064815 /* Build configuration list for PBXNativeTarget "XDMVLC" */;
 			buildPhases = (
+				0A044F5ABBA3B53175BDE64D /* [CP] Check Pods Manifest.lock */,
 				E4BC27152961AEC700064815 /* Sources */,
 				E4BC27162961AEC700064815 /* Frameworks */,
 				E4BC27172961AEC700064815 /* Resources */,
+				662389CC64468346698DBA05 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -116,7 +143,7 @@
 				};
 			};
 			buildConfigurationList = E4BC27142961AEC600064815 /* Build configuration list for PBXProject "XDMVLC" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -145,6 +172,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A044F5ABBA3B53175BDE64D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XDMVLC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		662389CC64468346698DBA05 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XDMVLC/Pods-XDMVLC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XDMVLC/Pods-XDMVLC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XDMVLC/Pods-XDMVLC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E4BC27152961AEC700064815 /* Sources */ = {
@@ -293,6 +362,7 @@
 		};
 		E4BC27332961AEC800064815 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 853103CD359857C32B30DD83 /* Pods-XDMVLC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,6 +390,7 @@
 		};
 		E4BC27342961AEC800064815 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42D00861034CE7D8244AB1F4 /* Pods-XDMVLC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
