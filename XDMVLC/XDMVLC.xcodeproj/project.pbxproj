@@ -16,6 +16,16 @@
 		E4BC272C2961AEC800064815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4BC272A2961AEC800064815 /* LaunchScreen.storyboard */; };
 		E4BC272F2961AEC800064815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC272E2961AEC800064815 /* main.m */; };
 		E4BC27372961AED300064815 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC27362961AED300064815 /* VideoViewController.m */; };
+		E4BC27412961B0C600064815 /* CaptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC27392961B0C500064815 /* CaptionViewController.m */; };
+		E4BC27422961B0C600064815 /* NewCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC273D2961B0C500064815 /* NewCenterView.m */; };
+		E4BC27432961B0C600064815 /* NewVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC273E2961B0C600064815 /* NewVideoViewController.m */; };
+		E4BC27442961B0C600064815 /* NewPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC273F2961B0C600064815 /* NewPlayerView.m */; };
+		E4BC27472961B1AA00064815 /* VideoAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC27452961B1AA00064815 /* VideoAudioPlayer.m */; };
+		E4BC274A2961B1F700064815 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC27482961B1F700064815 /* UIColor+Hex.m */; };
+		E4BC27512961B22600064815 /* NSDictionary+XDExt.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC274C2961B22600064815 /* NSDictionary+XDExt.m */; };
+		E4BC27522961B22600064815 /* NSArray+XDExt.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC274E2961B22600064815 /* NSArray+XDExt.m */; };
+		E4BC27532961B22600064815 /* NSString+XDExt.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC27502961B22600064815 /* NSString+XDExt.m */; };
+		E4BC27562962C83700064815 /* XTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BC27552962C83700064815 /* XTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +46,26 @@
 		E4BC272E2961AEC800064815 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4BC27352961AED300064815 /* VideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
 		E4BC27362961AED300064815 /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		E4BC27392961B0C500064815 /* CaptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptionViewController.m; sourceTree = "<group>"; };
+		E4BC273A2961B0C500064815 /* NewCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCenterView.h; sourceTree = "<group>"; };
+		E4BC273B2961B0C500064815 /* NewPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPlayerView.h; sourceTree = "<group>"; };
+		E4BC273C2961B0C500064815 /* NewVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewVideoViewController.h; sourceTree = "<group>"; };
+		E4BC273D2961B0C500064815 /* NewCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCenterView.m; sourceTree = "<group>"; };
+		E4BC273E2961B0C600064815 /* NewVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewVideoViewController.m; sourceTree = "<group>"; };
+		E4BC273F2961B0C600064815 /* NewPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPlayerView.m; sourceTree = "<group>"; };
+		E4BC27402961B0C600064815 /* CaptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptionViewController.h; sourceTree = "<group>"; };
+		E4BC27452961B1AA00064815 /* VideoAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoAudioPlayer.m; sourceTree = "<group>"; };
+		E4BC27462961B1AA00064815 /* VideoAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoAudioPlayer.h; sourceTree = "<group>"; };
+		E4BC27482961B1F700064815 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		E4BC27492961B1F700064815 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		E4BC274B2961B22600064815 /* NSDictionary+XDExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XDExt.h"; sourceTree = "<group>"; };
+		E4BC274C2961B22600064815 /* NSDictionary+XDExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XDExt.m"; sourceTree = "<group>"; };
+		E4BC274D2961B22600064815 /* NSArray+XDExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XDExt.h"; sourceTree = "<group>"; };
+		E4BC274E2961B22600064815 /* NSArray+XDExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XDExt.m"; sourceTree = "<group>"; };
+		E4BC274F2961B22600064815 /* NSString+XDExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XDExt.h"; sourceTree = "<group>"; };
+		E4BC27502961B22600064815 /* NSString+XDExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XDExt.m"; sourceTree = "<group>"; };
+		E4BC27542962C83600064815 /* XTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTools.h; sourceTree = "<group>"; };
+		E4BC27552962C83700064815 /* XTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +86,6 @@
 				853103CD359857C32B30DD83 /* Pods-XDMVLC.debug.xcconfig */,
 				42D00861034CE7D8244AB1F4 /* Pods-XDMVLC.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -89,6 +118,7 @@
 		E4BC271B2961AEC700064815 /* XDMVLC */ = {
 			isa = PBXGroup;
 			children = (
+				E4BC27382961B09700064815 /* Video */,
 				E4BC271C2961AEC700064815 /* AppDelegate.h */,
 				E4BC271D2961AEC700064815 /* AppDelegate.m */,
 				E4BC271F2961AEC700064815 /* SceneDelegate.h */,
@@ -104,6 +134,33 @@
 				E4BC272E2961AEC800064815 /* main.m */,
 			);
 			path = XDMVLC;
+			sourceTree = "<group>";
+		};
+		E4BC27382961B09700064815 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				E4BC27462961B1AA00064815 /* VideoAudioPlayer.h */,
+				E4BC27452961B1AA00064815 /* VideoAudioPlayer.m */,
+				E4BC27402961B0C600064815 /* CaptionViewController.h */,
+				E4BC27392961B0C500064815 /* CaptionViewController.m */,
+				E4BC273A2961B0C500064815 /* NewCenterView.h */,
+				E4BC273D2961B0C500064815 /* NewCenterView.m */,
+				E4BC273B2961B0C500064815 /* NewPlayerView.h */,
+				E4BC273F2961B0C600064815 /* NewPlayerView.m */,
+				E4BC273C2961B0C500064815 /* NewVideoViewController.h */,
+				E4BC273E2961B0C600064815 /* NewVideoViewController.m */,
+				E4BC274D2961B22600064815 /* NSArray+XDExt.h */,
+				E4BC274E2961B22600064815 /* NSArray+XDExt.m */,
+				E4BC274B2961B22600064815 /* NSDictionary+XDExt.h */,
+				E4BC274C2961B22600064815 /* NSDictionary+XDExt.m */,
+				E4BC274F2961B22600064815 /* NSString+XDExt.h */,
+				E4BC27502961B22600064815 /* NSString+XDExt.m */,
+				E4BC27492961B1F700064815 /* UIColor+Hex.h */,
+				E4BC27482961B1F700064815 /* UIColor+Hex.m */,
+				E4BC27542962C83600064815 /* XTools.h */,
+				E4BC27552962C83700064815 /* XTools.m */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,10 +278,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4BC27372961AED300064815 /* VideoViewController.m in Sources */,
+				E4BC27472961B1AA00064815 /* VideoAudioPlayer.m in Sources */,
+				E4BC27512961B22600064815 /* NSDictionary+XDExt.m in Sources */,
+				E4BC27412961B0C600064815 /* CaptionViewController.m in Sources */,
+				E4BC27562962C83700064815 /* XTools.m in Sources */,
+				E4BC27442961B0C600064815 /* NewPlayerView.m in Sources */,
+				E4BC27532961B22600064815 /* NSString+XDExt.m in Sources */,
 				E4BC27242961AEC700064815 /* ViewController.m in Sources */,
+				E4BC27432961B0C600064815 /* NewVideoViewController.m in Sources */,
+				E4BC27522961B22600064815 /* NSArray+XDExt.m in Sources */,
 				E4BC271E2961AEC700064815 /* AppDelegate.m in Sources */,
 				E4BC272F2961AEC800064815 /* main.m in Sources */,
+				E4BC274A2961B1F700064815 /* UIColor+Hex.m in Sources */,
 				E4BC27212961AEC700064815 /* SceneDelegate.m in Sources */,
+				E4BC27422961B0C600064815 /* NewCenterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +443,8 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -404,6 +473,8 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
