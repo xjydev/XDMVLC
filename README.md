@@ -4,7 +4,7 @@
 
 # License
 
-    Copyright (c) 2017 Bilibili
+    Copyright (c) 2023 xjydev
     Licensed under LGPLv2.1 or later
 
 # Commercial Use
